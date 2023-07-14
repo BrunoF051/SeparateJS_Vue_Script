@@ -1,7 +1,3 @@
-//This script creates the .js files with camelCase names
-//and paste the <scritp /> content of the .Vue files on the .js files.
-//You can choose if overwrite the .vue file or not
-//After the scritp runs you need to manually fix the imports on the js files
 import { input } from "@inquirer/prompts";
 import confirm from "@inquirer/confirm";
 import * as fs from "node:fs";
