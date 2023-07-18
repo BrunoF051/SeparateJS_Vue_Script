@@ -143,4 +143,12 @@ const overWriteVue = await confirm({
   default: true,
 });
 
-createJsFiles(originPath, destinationPath, overWriteVue);
+const checkpath = await confirm({
+  message: "Are the Paths ok?",
+  default: true,
+});
+
+if (checkpath) {
+  createJsFiles(originPath, destinationPath, overWriteVue);
+}
+process.exit(0);
