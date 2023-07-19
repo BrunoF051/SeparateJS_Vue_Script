@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Bruno Frontini Ganem",
   "license": "ISC",
   "dependencies": {
     "@inquirer/confirm": "^2.0.4",
