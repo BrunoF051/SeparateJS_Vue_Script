@@ -43,7 +43,7 @@ createDestinationFolder(destinationPath);
 let scriptRegex = "";
 
 const createJsFiles = (origin, destination, writeVue) => {
-  //geting the names on an Array
+  //getting the names on an Array
   const filesNames = fs.readdirSync(origin, (err, files) => {
     return err ?? files.join(",");
   });
