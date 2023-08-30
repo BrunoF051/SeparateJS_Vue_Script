@@ -45,7 +45,7 @@ let scriptRegex = "";
 const createJsFiles = (origin, destination, writeVue) => {
   //geting the names on an Array
   const filesNames = fs.readdirSync(origin, (err, files) => {
-    return err ? err : files.join(",");
+    return err ?? files.join(",");
   });
   // Avoiding folders and other files extensions
   const justVueFiles = filesNames.filter((file) => {
